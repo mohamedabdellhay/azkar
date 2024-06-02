@@ -1,0 +1,9 @@
+:root{
+    --main-color : hsl(182.91deg 79.71% 40.59%);
+}
+
+
+
+header{
+    background-color: var(--main-color);
+}

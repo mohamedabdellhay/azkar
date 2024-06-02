@@ -1,0 +1,11 @@
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 12px 0;
+    border-radius: 10px;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 20px;
+    background-color: #ffd333;
+    color: #fff;
+}
