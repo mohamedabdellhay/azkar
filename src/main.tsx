@@ -1,24 +1,11 @@
 
 import ReactDOM from 'react-dom/client'
-import { MorningAzkar } from './pages/morningazkar'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import { Home } from './pages/home';
+import AppRouter from './Router/AppRouter';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/اذكار-الصباح",
-    element: <MorningAzkar />,
-  },
-]);
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-    <RouterProvider router={router} />
-);
+
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(<AppRouter />);
+
